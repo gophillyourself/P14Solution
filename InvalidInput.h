@@ -1,5 +1,5 @@
-#ifndef INVALIDMONTH_H_
-#define INVALIDMONTH_H_
+#ifndef INVALIDINPUT_H_
+#define INVALIDINPUT_H_
 
 #include <iostream>
 #include <string>
