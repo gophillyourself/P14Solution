@@ -16,7 +16,7 @@ public:
   InvalidMonth();
   InvalidMonth(string str);
   string what();
-  virtual ~InvalidInput();
+  virtual ~InvalidMonth();
 
 };
 
