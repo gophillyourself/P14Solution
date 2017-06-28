@@ -2,7 +2,7 @@
 
 InvalidInput::InvalidInput()
 {
-	message = "Input Invalid";
+	message = "Something is wrong";
 }
 
 InvalidInput::InvalidInput(string str)

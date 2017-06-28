@@ -2,7 +2,7 @@
 
 Nonpositive::Nonpositive()
 {
-	message = "Any part of the date cannot be negative";
+	message = "Number cannot be negative";
 }
 
 Nonpositive::Nonpositive(string str)

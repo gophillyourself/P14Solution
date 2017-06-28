@@ -14,7 +14,7 @@ private:
 
 public:
   InvalidMonth();
-  InvalidMonth(int str);
+  InvalidMonth(string str);
   string what();
   virtual ~InvalidMonth();
 
