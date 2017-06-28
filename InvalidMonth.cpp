@@ -5,7 +5,7 @@ InvalidMonth::InvalidMonth()
 	message = "Not a valid Month";
 }
 
-InvalidMonth::InvalidMonth(string str)
+InvalidMonth::InvalidMonth(int str)
 {
 	message = str + " is not a valid month";
 }

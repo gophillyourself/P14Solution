@@ -14,7 +14,7 @@ private:
 
 public:
   InvalidDay();
-  InvalidDay(string str);
+  InvalidDay(int str);
   string what();
   virtual ~InvalidDay();
 

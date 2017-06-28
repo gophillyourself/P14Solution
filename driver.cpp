@@ -22,11 +22,11 @@ int main()
     {
       cout<<"Enter a month in the form of mm-dd-yyyy: ";
       cin>>month>>dash1>>day>>dash2>>year;
-      cout<<"you entered :"<<month<<" "<<day<<" "<<year<<endl;
+      //cout<<"you entered :"<<month<<" "<<day<<" "<<year<<endl;
       if(!cin) throw InvalidInput();
       if(day < 1 || month < 1 || year < 1) throw Nonpositive();
-      if(day > 31) throw InvalidDay(day);
-      if(month > 12) throw InvalidMonth();
+      if(day > 31) throw InvalidDay();
+      if(month > 12) throw InvalidMonth(month);
       if(month == 4 || month == 6 || month == 9 || month == 11)
          if(day >= 31) throw InvalidDay(day);
       if(month == 2 && day == 29 && year%4 !=0) throw InvalidDay(day);

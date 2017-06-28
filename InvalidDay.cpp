@@ -5,9 +5,9 @@ InvalidDay::InvalidDay()
 	message = "Not a valid day";
 }
 
-InvalidDay::InvalidDay(string str)
+InvalidDay::InvalidDay(int str)
 {
-	message = str + " is not a valid day for that month";
+	message = " is not a valid day for that month";
 }
 
 string InvalidDay::what()
